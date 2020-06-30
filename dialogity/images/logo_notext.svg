@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="25.76"
+   inkscape:export-xdpi="25.76"
+   inkscape:export-filename="C:\data\dialogity-wp-plugin\dialogity\images\logo_notext.png"
+   width="20mm"
+   height="20mm"
+   viewBox="0 0 5.3669293 5.3669293"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="logo_notext.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     scale-x="0.071"
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="324.65201"
+     inkscape:cy="510.71152"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1600"
+     inkscape:window-height="830"
+     inkscape:window-x="-7"
+     inkscape:window-y="-7"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g126-8-1"
+       transform="matrix(0.06666667,0,0,0.06666667,-8.3367472,-5.9789956)">
+      <g
+         id="g74-1-9">
+        <g
+           id="g68-7-7">
+          <circle
+             r="39.6875"
+             cy="129.37244"
+             cx="164.73872"
+             id="path24-9-9"
+             style="fill:#a2b9d9;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264583" />
+          <circle
+             style="fill:#16519f;fill-opacity:1;fill-rule:evenodd;stroke-width:0.224265"
+             id="path24-3-90-3"
+             cx="164.73872"
+             cy="129.37244"
+             r="33.639881" />
+        </g>
+        <circle
+           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:0.181428"
+           id="path24-3-9-4-5"
+           cx="164.73872"
+           cy="129.37244"
+           r="27.214285" />
+      </g>
+      <g
+         transform="translate(83.048626,0.15182495)"
+         id="g115-0-2">
+        <circle
+           style="fill:#16519f;fill-opacity:1;stroke-width:0.264583"
+           id="path80-7-0"
+           cx="68.319183"
+           cy="129.22061"
+           r="4.8191962" />
+        <circle
+           r="4.8191962"
+           cy="129.22061"
+           cx="81.831848"
+           id="path80-0-0-6"
+           style="fill:#16519f;fill-opacity:1;stroke-width:0.264583" />
+        <circle
+           style="fill:#16519f;fill-opacity:1;stroke-width:0.264583"
+           id="path80-0-2-4-4"
+           cx="95.061012"
+           cy="129.22061"
+           r="4.8191962" />
+      </g>
+    </g>
+  </g>
+</svg>
