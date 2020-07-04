@@ -1,5 +1,5 @@
 /*
-Dialogity WP plugin
+Dialogity Website Chat WordPress plugin
 Copyright (C) 2020, Dialogity.com
 
 This program is free software; you can redistribute it and/or modify

@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Dialogity
+ * Plugin Name: Dialogity Website Chat
  * Plugin URI: https://www.dialogity.com/wordpress-plugin/
  * Description: Simple integration of Dialogity chat to your website. It enables your customers to connect your business easily.
  * Version:           1.0
@@ -14,7 +14,7 @@
  */
 
 /*
-Dialogity WP plugin
+Dialogity Website Chat WordPress plugin
 Copyright (C) 2020, Dialogity.com
 
 This program is free software; you can redistribute it and/or modify
@@ -59,7 +59,7 @@ register_uninstall_hook( __FILE__, 'dialogity_uninstall' );
 /**
  * Inserting code to the head of every page
  */
-function hook_javascript() {
+function dialogity_hook_javascript() {
     // loading the code to be inserted
     $options = get_option( 'dialogity_options' );
     if ( isset( $options )  && isset( $options["dialogity_field_script_preview"] ) ) {
@@ -67,7 +67,7 @@ function hook_javascript() {
         echo $options["dialogity_field_script_preview"];
     }
 }
-add_action('wp_head', 'hook_javascript');
+add_action('wp_head', 'dialogity_hook_javascript');
 
 
 // TODO: load appropriate text domain: add_action( 'init', 'wpdocs_load_textdomain' ); 
@@ -207,7 +207,7 @@ function dialogity_options_page() {
     // add top level menu page
     add_menu_page(
         'Dialogity',
-        'Dialogity Options',
+        'Dialogity Chat',
         'manage_options',
         'dialogity',
         'dialogity_options_page_html',
@@ -238,9 +238,6 @@ function dialogity_options_page_html() {
     if ( isset( $_GET['settings-updated'] ) ) {
         // add settings saved message with the class of "updated"
         add_settings_error( 'dialogity_messages', 'dialogity_message', __( 'Settings Saved', 'dialogity' ), 'updated' );
-        // TODO: retrieve code here
-        $response = wp_remote_get( 'http://localhost/api/get-code-snippet/aa8a9a6a66bb76976a9876' );
-        echo $response;
     }
     
     // show error/update messages
@@ -264,6 +261,6 @@ function dialogity_options_page_html() {
     <?php
     
     // loading the admin Javascript to load the code snippet from the server
-    wp_enqueue_script( 'dialogity_js', plugins_url( 'dialogity/dialogity.js', _FILE_ ));
+    wp_enqueue_script( 'dialogity_js', plugins_url( '/dialogity-wp-plugin/dialogity.js', _FILE_ ));
 }
 
