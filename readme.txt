@@ -25,18 +25,18 @@ or sharing personal information if they wish to stay anonymous. Use Dialogity FR
 It's truly free and always will be until 100 messages per month. To have unlimited chats you need a paid subscription. 
 Find out more about our pricing [here](https://www.dialogity.com/pricing/).
 
-## Why to add live chat to your website
+** Why to add live chat to your website **
 83% of consumers require some kind of customer support during the customer journey before they convert. And if their 
 questions or concerns are not addressed in time, 45% of customers just leave.
 
 Don’t leave your customers alone. By live chat you can help them effortlessly at the exact time when they need it.
 
-## What makes Dialogity a great fit for you
+** What makes Dialogity a great fit for you **
 Dialogity live chat plugin is designed with simplicity in mind to help small businesses to have real-time contact 
 with their customers. It’s simple to install and simple to use, and has all features required to serve your customers 
 with ease.
 
-## Features
+** Features **
 Dialogity live chat tool is convenient help for your customers at the very time they need it.
 
 - Increase your conversions by communicating directly with your website visitors in real-time.
@@ -65,17 +65,13 @@ The forever free plan has all the features small businesses need:
 - Include/exclude the live chat from appearing on certain pages
 - GDPR compatible, visitors can access and manage the data stored about them
 
-== Installation ==
-For using the plugin a Dialogity subscription is required, which can be acquired for FREE by registering for the service on [https://dialogity.com](https://dialogity.com).
+== Screenshots ==
 
-## Step-by-step guide
-1. Create an account (no credit card required): [https://app.dialogity.com/registration](https://app.dialogity.com/registration)
-2. Copy your account ID (UUID) from here: [https://app.dialogity.com/install](https://app.dialogity.com/install)
-3. Install the plugin by using WordPress plugin directory or upload dialogity-wp-plugin directory to the '/wp-content/plugins/' directory
-4. Activate the plugin through the 'Plugins' menu in the WordPress admin panel
-5. Go to the 'Dialogity Chat' menu in the WordPress admin panel (this is the plugins setting page).
-6. Insert your account ID to the first input.
-7. Save the setting.
+1. How chat works on the site
+2. Admin page overview
+3. Customization on the admin page
+4. Managing conversations
+5. WordPress plugin settings
 
 == Frequently Asked Questions ==
 
@@ -170,14 +166,18 @@ You can set up a new password [here](https://app.dialogity.com/password-reset).
 
 = How do I learn more about Dialogity and your live chat plugin? =
 Visit our [website](https://dialogity.com) or our [documentation portal](https://doc.dialogity.com) where you can get information about [product updates](https://doc.dialogity.com/index.php/docs/change-log/) too.
- 
-== Screenshots ==
 
-1. How chat works on the site
-2. Admin page overview
-3. Customization on the admin page
-4. Managing conversations
-5. WordPress plugin settings
+== Installation ==
+For using the plugin a Dialogity subscription is required, which can be acquired for FREE by registering for the service on [https://dialogity.com](https://dialogity.com).
+
+** Step-by-step guide **
+1. Create an account (no credit card required): [https://app.dialogity.com/registration](https://app.dialogity.com/registration)
+2. Copy your account ID (UUID) from here: [https://app.dialogity.com/install](https://app.dialogity.com/install)
+3. Install the plugin by using WordPress plugin directory or upload dialogity-wp-plugin directory to the '/wp-content/plugins/' directory
+4. Activate the plugin through the 'Plugins' menu in the WordPress admin panel
+5. Go to the 'Dialogity Chat' menu in the WordPress admin panel (this is the plugins setting page).
+6. Insert your account ID to the first input.
+7. Save the setting.
 
 == Changelog ==
 
