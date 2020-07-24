@@ -261,6 +261,6 @@ function dialogity_options_page_html() {
     <?php
     
     // loading the admin Javascript to load the code snippet from the server
-    wp_enqueue_script( 'dialogity_js', plugins_url( '/dialogity-wp-plugin/dialogity.js', _FILE_ ));
+    wp_enqueue_script( 'dialogity_js', plugins_url( '/dialogity.js', __FILE__ ));
 }
 
