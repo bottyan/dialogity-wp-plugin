@@ -3,7 +3,7 @@
  * Plugin Name: Dialogity Website Chat
  * Plugin URI: https://www.dialogity.com/wordpress-plugin/
  * Description: Simple integration of Dialogity chat to your website. It enables your customers to connect your business easily.
- * Version:           1.0
+ * Version:           1.0.3
  * Requires at least: 5.2
  * Requires PHP:      7.2
  * Author:            Dialogity
@@ -147,8 +147,10 @@ function dialogity_section_accountid_cb( $args ) {
     ?>
     <p id="<?php echo esc_attr( $args['id'] ); ?>">
         <img width="200" src="<?php echo plugin_dir_url(__FILE__) . 'images/logo_hor.svg' ?>"></img><br>
-        <?php esc_html_e( 'To integrate Dialogity chat into your Wordpress site just enter your account id. You can find it in Dialogity admin page:', 'dialogity' ); ?>
+        <?php esc_html_e( 'To integrate Dialogity chat into your Wordpress site just enter your account id. If You aldeady have an account it can be found on Dialogity admin page:', 'dialogity' ); ?>
         <a target="_blank" href="https://app.dialogity.com/install">https://app.dialogity.com/install</a>
+        <?php esc_html_e( 'Otherwise You can create an account here for FREE:', 'dialogity' ); ?>
+        <a target="_blank" href="https://app.dialogity.com/registration">https://app.dialogity.com/registration</a>
     </p>
     <?php
 }
